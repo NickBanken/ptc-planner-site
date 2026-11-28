@@ -1,0 +1,1 @@
+function e(e,t){return e.status===`active`?`in_use`:e.effectiveDate!==``&&e.effectiveDate>t?`retiring`:`no_longer_in_use`}export{e as t};

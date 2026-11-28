@@ -1,0 +1,1 @@
+function e(e,t,n=`text/plain;charset=utf-8`){let r=t instanceof Blob?t:new Blob([t],{type:n}),i=URL.createObjectURL(r),a=document.createElement(`a`);a.href=i,a.download=e,a.click(),setTimeout(()=>URL.revokeObjectURL(i),1e3)}function t(e){return e.trim().replace(/[/\\:*?"<>|]/g,`_`).replace(/\s+/g,` `).slice(0,80)||`file`}export{t as n,e as t};

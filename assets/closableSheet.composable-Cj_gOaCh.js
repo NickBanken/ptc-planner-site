@@ -1,0 +1,1 @@
+import{D as e}from"./iso-kQ1h1-5D.js";function t(t){return e({get:()=>!0,set:e=>{e||t()}})}export{t};

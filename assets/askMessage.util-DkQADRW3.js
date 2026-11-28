@@ -1,0 +1,1 @@
+function e(e,t){return e.replace(/\{(\w+)\}/g,(e,n)=>t[n]??e)}function t(e,t){return`${e}?text=${encodeURIComponent(t)}`}function n(e,t,n){return`mailto:${e}?subject=${encodeURIComponent(t)}&body=${encodeURIComponent(n)}`}export{n,t as r,e as t};

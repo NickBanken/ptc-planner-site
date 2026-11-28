@@ -1,0 +1,1 @@
+import{f as e,p as t,s as n,t as r,u as i}from"./iso-kQ1h1-5D.js";import{t as a}from"./i18n.plugin--JA3meR3.js";var o=i({lastInvited:t([n(``),r({error:()=>a.global.t(`validation.date`)})]),text:e().max(2e3)}),s=i({text:e().max(2e3)});export{o as n,s as t};

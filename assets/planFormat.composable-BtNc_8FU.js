@@ -1,0 +1,1 @@
+import{x as e}from"./iso-kQ1h1-5D.js";import{r as t}from"./isoDate.util-BToC0ych.js";function n(){let n=e();return{formatLongDate:e=>n.d(t(e),`long`),formatMonth:e=>n.d(t(e),`month`),formatOutline:e=>[e.outlineNumber===null?``:`#${e.outlineNumber}`,e.outlineTitle].filter(Boolean).join(` `),formatShortDate:e=>n.d(t(e),`dayMonth`)}}export{n as t};

@@ -1,0 +1,1 @@
+import{f as e,r as t}from"./iso-kQ1h1-5D.js";function n(e){return e.normalize(`NFD`).replace(/[̀-ͯ]/g,``).toLowerCase().trim()}function r(e){return n(e).replace(/\s+/g,` `)}var i=e().startsWith(`cong|`).brand();function a(e){return i.parse(`cong|${r(e)}`)}var o=t([`monday`,`tuesday`,`wednesday`,`thursday`,`friday`,`saturday`,`sunday`]);export{n as a,r as i,i as n,a as r,o as t};

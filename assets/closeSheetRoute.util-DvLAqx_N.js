@@ -1,0 +1,1 @@
+async function e(e,t){let n=e.resolve(t);e.options.history.state.back===n.fullPath?e.back():await e.replace(n)}export{e as t};
